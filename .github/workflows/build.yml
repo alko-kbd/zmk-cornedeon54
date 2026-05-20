@@ -1,0 +1,14 @@
+name: Build ZMK firmware
+
+on:
+  push:
+    paths-ignore:
+      - "firmware/**"
+      - "pics/**"
+      - "*.md"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
