@@ -5,4 +5,3 @@
 Keyboard Maintainer: [alko](https://github.com/alko-kbd/zmk-cornedeon54) [alko-kbd@alk0.ru](mailto:alko-kbd@alk0.ru)
 
 Web Site: [cornedeon.ru](https://cornedeon.ru)
-
