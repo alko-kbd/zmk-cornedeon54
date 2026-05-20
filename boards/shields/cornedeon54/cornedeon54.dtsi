@@ -14,16 +14,6 @@
         zmk,battery = &vbatt;
     };
 
-    vbatt: battery-divider {
-        compatible = "zmk,battery-voltage-divider";
-        label = "BATTERY";
-        /* PIN AIN6 (P0.31) */
-        io-channels = <&adc 6>;
-        /* Embedded nice!nano divider (100k / 100k) */
-        output-ohms = <100000>;
-        full-ohms = <200000>;
-    };
-
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
