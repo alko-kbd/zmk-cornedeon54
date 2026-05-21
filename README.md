@@ -6,10 +6,12 @@ Keyboard Maintainer: [alko](https://github.com/alko-kbd/zmk-cornedeon54) [alko-k
 
 Web Site: [cornedeon.ru](https://cornedeon.ru)
 
-**Local build (devcontainer)**
+**Local build**
 
-#workspaces/zmk# ./zmk-cornedeon54/build.sh dongle
+Prepare build environvent (devcontainer) as described in ZMK docs.
 
-#workspaces/zmk# ./zmk-cornedeon54/build.sh left
+~& cd zmk-workspace/zmk && git clone https://github.com/alko-kbd/zmk-cornedeon54 && cd ..
 
-#workspaces/zmk# ./zmk-cornedeon54/build.sh right
+~zmk-workspace$ devcontainer exec --workspace-folder ./zmk /bin/bash
+
+#workspaces/zmk# ./zmk-cornedeon54/build.sh <dongle|left|right|left_central>

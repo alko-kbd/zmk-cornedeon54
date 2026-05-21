@@ -4,6 +4,9 @@ config SHIELD_CORNEDEON54_DONGLE
 config SHIELD_CORNEDEON54_LEFT
     def_bool $(shields_list_contains,cornedeon54_left)
 
+config SHIELD_CORNEDEON54_LEFT_CENTRAL
+    def_bool $(shields_list_contains,cornedeon54_left_central)
+
 config SHIELD_CORNEDEON54_RIGHT
     def_bool $(shields_list_contains,cornedeon54_right)
 
