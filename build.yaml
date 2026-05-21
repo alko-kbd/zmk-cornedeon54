@@ -28,5 +28,5 @@ include:
   #   snippet: studio-rpc-usb-uart
   #   artifact-name: zmk_cornedeon54_right
 
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
