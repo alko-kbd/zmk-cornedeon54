@@ -6,7 +6,7 @@ Keyboard Maintainer: [alko](https://github.com/alko-kbd/zmk-cornedeon54) [alko-k
 
 Web Site: [cornedeon.ru](https://cornedeon.ru)
 
-**Local build**
+## Local build
 
 Prepare build environvent (devcontainer) as described in ZMK docs.
 
