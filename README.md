@@ -10,7 +10,9 @@ Web Site: [cornedeon.ru](https://cornedeon.ru)
 
 Prepare build environvent (devcontainer) as described in ZMK docs.
 
-~& cd zmk-workspace/zmk && git clone https://github.com/alko-kbd/zmk-cornedeon54 && cd ..
+~# cd zmk-workspace/zmk
+
+~zmk-workspace# git clone https://github.com/alko-kbd/zmk-cornedeon54
 
 ~zmk-workspace$ devcontainer exec --workspace-folder ./zmk /bin/bash
 
