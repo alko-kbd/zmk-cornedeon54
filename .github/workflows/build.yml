@@ -4,6 +4,7 @@ on:
   push:
     paths-ignore:
       - "firmware/**"
+      - "case/**"
       - "pics/**"
       - "*.md"
   pull_request:
